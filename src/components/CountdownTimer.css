@@ -1,0 +1,37 @@
+.timer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.timer label {
+  font-size: 18px;
+}
+
+.timer input {
+  width: 50px;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.timer button {
+  font-size: 16px;
+  padding: 8px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.timer button:hover {
+  background-color: #0056b3;
+}
+
+#countdown {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
+}
